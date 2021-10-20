@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+video{
+	margin-top: -100px;
+	margin-bottom: -30px;
+
+}
+
 /* Basic */
 
 	html {
@@ -2065,6 +2071,18 @@ input, select, textarea {
 
 /* Buttons */
 
+	ul.video-buttons {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 10%;
+		flex-direction: row;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+
 	ul.buttons {
 		cursor: default;
 		list-style: none;
@@ -2123,6 +2141,24 @@ input, select, textarea {
 			}
 
 /* Button */
+
+	.video-button{
+		background: none;
+		border: solid 1px;
+		border-radius: 0;
+		cursor: pointer;
+		font-size: 0.8em;
+		font-weight: 900;
+		letter-spacing: 2px;
+		min-width: 18em;
+		padding: 8px 40px;
+		line-height: 3.75em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: #83d3c9;
+		color: white;
+	}
 
 	input[type="button"],
 	input[type="submit"],
