@@ -87,6 +87,11 @@ video{
 	padding-top: 20px;
 }
 
+.about-me{
+	display: flex;
+	flex-direction: row;
+}
+
 /* Basic */
 
 	html {
