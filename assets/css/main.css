@@ -1491,6 +1491,16 @@ video{
 
 		}
 
+		@media screen and (max-width: 988px) {
+			.about-me{
+				flex-direction: column;
+			}
+
+			#personal-pic{
+				margin: auto;
+  				display: block;
+			}
+		}
 		@media screen and (max-width: 736px) {
 
 			.row {
